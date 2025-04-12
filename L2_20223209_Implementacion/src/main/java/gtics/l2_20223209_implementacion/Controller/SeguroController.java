@@ -1,6 +1,4 @@
 package gtics.l2_20223209_implementacion.Controller;
-
-import gtics.l2_20223209_implementacion.Entity.Auto;
 import gtics.l2_20223209_implementacion.Entity.Seguro;
 import gtics.l2_20223209_implementacion.Repository.SeguroRepository;
 import org.springframework.stereotype.Controller;
@@ -20,7 +18,7 @@ public class SeguroController {
 
     //Listar seguros
 
-    @GetMapping("/autos/listar")
+    @GetMapping("/seguros/listar")
     public String listarSeguros(Model model) {
 
         List<Seguro> listaSeguros = seguroRepository.findAll();

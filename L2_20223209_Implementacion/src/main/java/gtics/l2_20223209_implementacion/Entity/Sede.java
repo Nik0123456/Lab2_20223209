@@ -9,6 +9,7 @@ import lombok.*;
 
 @Table(name="sede")
 public class Sede {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "idsede", nullable = false)

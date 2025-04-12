@@ -9,6 +9,7 @@ import lombok.*;
 
 @Table(name="auto")
 public class Auto {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "idauto", nullable = false)
